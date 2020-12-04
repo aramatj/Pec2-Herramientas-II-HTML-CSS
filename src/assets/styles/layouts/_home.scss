@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: $font-family-sans-serif;
+  background-color: $fest-bg;
+  color: $fest-text;
+  min-height: 100%;
+}
+
+.encabezado {
+  margin: 10px;
+}
+
+.navbar-toggler {
+  color: $primary;
+  margin: 20px;
+}
+
+.navbar-toggler:focus {
+  outline: none;
+}
+
+//pagina 1
+
+.jumbotron {
+  padding: 20px;
+  margin: 20px;
+  font-size: 0.8em;
+  background-color: $multiply;
+  text-align: center;
+
+  .my-4 {
+    border: $border solid 0.2px;
+  }
+}
+
+.lugar__ciudad {
+  border-bottom: solid $fest-text;
+  color: $border;
+  padding: 3px;
+}

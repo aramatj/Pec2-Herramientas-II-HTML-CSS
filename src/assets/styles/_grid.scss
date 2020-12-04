@@ -1,0 +1,41 @@
+@supports (display: grid) {
+  .contenedor {
+    display: grid;
+    grid-column: 100%;
+    grid-template-rows: 50% 20% 1fr 20%;
+    row-gap: 15px;
+    //
+    .contenedor__poster {
+      width: 100%;
+      height: auto;
+      padding: 10px;
+      text-align: center;
+    }
+
+    .contenedor__description {
+      color: $border;
+      padding: 15px;
+      text-align: left;
+    }
+
+    .contenedor__img {
+      box-sizing: border-box;
+    }
+  }
+  // grid formulario
+  .container-xl {
+    display: grid;
+    grid-column: 100%;
+    grid-template-rows: 70% 20%;
+    row-gap: 15px;
+    padding: 60px;
+    margin: 20px;
+  }
+}
+
+@supports not (display: grid) {
+  //
+  .contenedor {
+    float: right;
+  }
+}

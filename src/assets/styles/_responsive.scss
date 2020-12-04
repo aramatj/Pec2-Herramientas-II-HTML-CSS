@@ -1,0 +1,71 @@
+// Small devices (landscape phones, 280px and up)
+@media (min-width: 280px) {
+  .contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 0.8em;
+    margin: 15px;
+  }
+
+  .contenedor__img {
+    width: 90%;
+    height: auto;
+  }
+
+  .flex {
+    display: flex;
+    flex-flow: row wrap;
+    font-size: 0.8em;
+  }
+
+  .main {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 0.8em;
+
+    .mb-0 {
+      font-size: 1em;
+    }
+  }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+  .contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 16px;
+  }
+
+  .flex {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    flex-grow: 1;
+    align-items: center;
+    padding: 10px;
+    margin: 30px;
+  }
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+  .contenedor {
+    max-width: 1000px;
+    width: 90%;
+    height: auto;
+    text-align: center;
+    margin: auto;
+  }
+
+  .contenedor__img {
+    width: 70%;
+    height: auto;
+  }
+
+  .main {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 16px;
+  }
+}

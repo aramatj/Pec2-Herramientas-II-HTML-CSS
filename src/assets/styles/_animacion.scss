@@ -1,0 +1,10 @@
+.contenedor__img {
+  transform: translate3d(3, -30%, 0);
+  animation: levitate 5s ease-in-out infinite alternate;
+}
+
+@keyframes levitate {
+  100% {
+    transform: translate3d(0, -37%, 0);
+  }
+}

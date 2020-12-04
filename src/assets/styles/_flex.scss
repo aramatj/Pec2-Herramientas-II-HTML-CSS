@@ -1,0 +1,50 @@
+.flex {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+  flex-grow: 1;
+  align-items: center;
+  padding: 10px;
+  margin: 30px;
+}
+
+//página 3
+
+.main {
+  max-width: 1000px;
+  width: 90%;
+  font-size: 15px;
+  color: $border;
+  height: auto;
+  margin: auto;
+
+  .main__block {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    padding: 15px;
+    margin: 30px auto 30px auto;
+    background: $multiply;
+    border-left: solid $fest-text 10px;
+  }
+
+  .main__list {
+    display: flex;
+    flex-flow: row nowrap;
+    padding: 15px;
+  }
+
+  .media-body {
+    margin-left: 30px;
+  }
+
+  .main__blockquote {
+    margin: 15px;
+    color: $fest-text;
+    justify-content: center;
+  }
+
+  .main__card {
+    color: $fest-bg;
+  }
+}

@@ -1,0 +1,15 @@
+@use "sass:color";
+
+$font-family-sans-serif: Roboto, "Helvetica Neue", Arial, sans-serif;
+$font-family-serif: "Georgia", "Times New Roman", serif;
+
+$fest-text: teal;
+$fest-bg: #03020c;
+$border: #b1afc2;
+$multiply: #6e42c10c;
+$primary: #ea8b57;
+
+$theme-colors: (
+  "primary": #ea8b57,
+  "secondary": #6f42c1// pon el código de color que prefieras,
+);
